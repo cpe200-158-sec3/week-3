@@ -2,7 +2,7 @@
 
 namespace Lab301
 {
-	class MainClass
+	class MainClass:Fraction
 	{
 		public static void Main (string[] args)
 		{
