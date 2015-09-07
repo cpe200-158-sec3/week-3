@@ -38,17 +38,17 @@ namespace Lab301
             Console.WriteLine (r8);
             Console.WriteLine (r9);
 
-            //Console.WriteLine(r2 == r4);
-            //Console.WriteLine(r4.Equals(r2)); // Equals method must be overriden
-            //Console.WriteLine(r2 != r4);
+            Console.WriteLine(r2 == r4);
+            Console.WriteLine(r4.Equals(r2)); // Equals method must be overriden
+            Console.WriteLine(r2 != r4);
 
-            //r3.setValue(10, 12 / 3 * 0);
-            //Console.WriteLine(r3);
+            r3.setValue(10, 12 / 3 * 0);
+            Console.WriteLine(r3);
 
-            //Console.WriteLine("***** " + Fraction.Count + " Fraction objects have been created *****");
+            Console.WriteLine("***** " + Fraction.Count + " Fraction objects have been created *****");
 
-            //Console.WriteLine("GCD of 3650 and 360: " + Fraction.GCD(3650, 360));
-            //Console.WriteLine("GCD of 3600 and 360: " + Fraction.GCD(3600, 360));
+            Console.WriteLine("GCD of 3650 and 360: " + Fraction.GCD(3650, 360));
+            Console.WriteLine("GCD of 3600 and 360: " + Fraction.GCD(3600, 360));
             Console.ReadKey();
 		}
 	}

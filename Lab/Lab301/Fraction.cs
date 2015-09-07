@@ -19,6 +19,7 @@ namespace Lab301
             get { return _denom; }
             set { _denom = value; }
         }
+
         private static int _count = 0;
         public static int Count
         {
@@ -49,38 +50,61 @@ namespace Lab301
         }
         public static Fraction operator +(Fraction f1,Fraction f2)
         {
-            return new Fraction((f1.Numer*f2.Denom+f2.Numer*f1.Denom)/(f1.Denom*f2.Denom));
+            return new Fraction(f1.Numer * f2.Denom + f2.Numer * f1.Denom, f1.Denom * f2.Denom);
         }
         public static Fraction operator -(Fraction f1, Fraction f2)
         {
-            return new Fraction((f1.Numer * f2.Denom - f2.Numer * f1.Denom) / (f1.Denom * f2.Denom));
+            return new Fraction((f1.Numer * f2.Denom - f2.Numer * f1.Denom) , (f1.Denom * f2.Denom));
         }
         public static Fraction operator ++(Fraction f)
         {
-            return new Fraction((f.Numer + f.Denom)/f.Denom);
+            return new Fraction((f.Numer + f.Denom),f.Denom);
+        }
+        public static Fraction operator --(Fraction f)
+        {
+            return new Fraction((f.Numer - f.Denom) , f.Denom);
         }
 
         public static Fraction operator +(Fraction f,int x)
         {
-            return new Fraction((f.Numer + (f.Denom * x)) / (f.Denom));
+            return new Fraction((f.Numer + (f.Denom * x)) , (f.Denom));
         }
         public static Fraction operator +(int x, Fraction f)
         {
-            return new Fraction((f.Numer + (f.Denom * x)) / (f.Denom));
+            return new Fraction((f.Numer + (f.Denom * x)) , (f.Denom));
         }
         public static Fraction operator -(int x, Fraction f)
         {
-            return new Fraction(((f.Denom * x) - f.Numer) / (f.Denom));
+            return new Fraction(((f.Denom * x) - f.Numer) , (f.Denom));
         }
         public static Fraction operator -(Fraction f, int x)
         {
-            return new Fraction((f.Numer - (f.Denom * x)) / (f.Denom));
+            return new Fraction((f.Numer - (f.Denom * x)) , (f.Denom));
         }
+        public static bool operator ==(Fraction f1,Fraction f2)
+        {
+            return (f1.Numer / f1.Denom == f2.Numer / f2.Denom);
+        }
+        public static bool operator !=(Fraction f1, Fraction f2)
+        {
+            return (f1.Numer / f1.Denom != f2.Numer / f2.Denom);
+        }
+        public bool Equals(Fraction f)
+        {
+            return (this._numer / this._denom == f.Numer / f.Denom);
+        }
+        public void setValue(int a,int b)
+        {
+            this._numer = a;
+            if (b == 0)
+                this._denom = 1;
+            else
+                this._denom = b;
+        }
+        public static Fraction GCD(int a, int b)
+        {
 
-        //public static Fraction operator =(Fraction f)
-        //{
-        //    return new Fraction();
-        //}
+        }
         public override string ToString()
         {
             string s = "[Rational: " + this.Numer + "/" + this.Denom + "], value=" + (this.Numer / this.Denom) + "]";
