@@ -40,8 +40,8 @@ namespace Lab301
         public Fraction(double numer, double denom)
         {
             
-            this.Numer = numer/ Fraction.GCD(numer, denom); ;
-            this.Denom = denom/ Fraction.GCD(numer, denom); ;
+            this.Numer = numer/ Fraction.GCD(numer, denom);
+            this.Denom = denom/ Fraction.GCD(numer, denom);
             _count++;
         }
         public Fraction(Fraction f)
