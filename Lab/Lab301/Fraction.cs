@@ -39,8 +39,9 @@ namespace Lab301
         }
         public Fraction(double numer, double denom)
         {
-            this.Numer = numer;
-            this.Denom = denom;
+            
+            this.Numer = numer/ Fraction.GCD(numer, denom); ;
+            this.Denom = denom/ Fraction.GCD(numer, denom); ;
             _count++;
         }
         public Fraction(Fraction f)
@@ -101,9 +102,17 @@ namespace Lab301
             else
                 this._denom = b;
         }
-        public static Fraction GCD(int a, int b)
+        public static int GCD(double a, double b)
         {
-
+            int gcd = 1;
+            for (int cd = 1; (cd <= a) && (cd <= b); cd++)
+            {
+                if ((a % cd == 0) && (b % cd == 0))
+                {
+                    gcd = cd;
+                }
+            }
+            return gcd;
         }
         public override string ToString()
         {
