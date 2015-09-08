@@ -23,8 +23,11 @@ many many operators need to be overloaded!!!
 ## Question?
 1. Is the number of Fraction objects equal to the 'new' keywords used
    in the 'main' methods? How come?
-2. Are the result, r3 and r7, in case#1 and case#2 the same? Why?
+Ans: No, equal because new operators create new objects.
 
+2. Are the result, r3 and r7, in case#1 and case#2 the same? Why?
+Ans: Same because they are copy :fraction r7 = new fraction(r3)
+                                 fraction r7 = r3;
 
 ## Expected Output:
 
