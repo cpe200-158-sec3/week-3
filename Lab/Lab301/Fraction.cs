@@ -15,6 +15,7 @@ namespace Lab301
             get;
             set;
         }
+
         public int denom
         {
             get;
