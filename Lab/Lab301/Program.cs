@@ -27,7 +27,7 @@ namespace Lab301
 			Fraction r9 = (new Fraction(5,25)) + 1;
 
 			Console.WriteLine ("***** " + Fraction.Count + " Fraction objects have been created *****");
-
+            
 			Console.WriteLine (r1);
 			Console.WriteLine (r2);
 			Console.WriteLine (r3);
@@ -49,7 +49,7 @@ namespace Lab301
 
 			Console.WriteLine("GCD of 3650 and 360: " + Fraction.GCD (3650,360));
 			Console.WriteLine("GCD of 3600 and 360: " + Fraction.GCD (3600,360));
-
+            
 		}
 	}
 }
