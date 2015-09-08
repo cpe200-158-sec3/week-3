@@ -23,8 +23,10 @@ many many operators need to be overloaded!!!
 ## Question?
 1. Is the number of Fraction objects equal to the 'new' keywords used
    in the 'main' methods? How come?
-2. Are the result, r3 and r7, in case#1 and case#2 the same? Why?
+   : Not equal because the operator is create object.
 
+2. Are the result, r3 and r7, in case#1 and case#2 the same? Why?
+   :  The result are the same.Because it's just like the same function that mean decide the new fraction r7 equal fraction r3.
 
 ## Expected Output:
 
