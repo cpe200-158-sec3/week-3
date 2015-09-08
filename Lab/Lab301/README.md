@@ -23,7 +23,12 @@ many many operators need to be overloaded!!!
 ## Question?
 1. Is the number of Fraction objects equal to the 'new' keywords used
    in the 'main' methods? How come?
+= we put count static variable when object was create every time when object created count variable will count object many time 
+ object will create with out fraction will not count in variable
+  static variable never reset value to default when create object thats why we can count object
 2. Are the result, r3 and r7, in case#1 and case#2 the same? Why?
+= case 1 is create fraction by copy constructure(count will ++) case 2 use equal to tell variable is a value the same
+but case 2 will replace value instate
 
 
 ## Expected Output:
