@@ -23,7 +23,9 @@ many many operators need to be overloaded!!!
 ## Question?
 1. Is the number of Fraction objects equal to the 'new' keywords used
    in the 'main' methods? How come?
+    = to create new object type fraction
 2. Are the result, r3 and r7, in case#1 and case#2 the same? Why?
+	= Yes. Because case#1 r7 create new fraction by get parameter = r3 and case2# set r7 = result of r3 
 
 
 ## Expected Output:
