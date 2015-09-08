@@ -142,16 +142,17 @@ namespace Lab301
         }
 
         public void setValue(double num,double denom)
-        {   
+        {
+            numeral = num;
 
             if (denom == 0)
             {
-                denom = 1;
+                denominator = 1;
             }
             else
             {
-                numeral = num;
-                denominator = denom;
+               denominator = denom;
+               
             }
 
         }

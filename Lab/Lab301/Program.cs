@@ -42,7 +42,7 @@ namespace Lab301
 			Console.WriteLine (r4.Equals (r2)); // Equals method must be overriden
 			Console.WriteLine (r2!=r4);
 
-			r3.setValue (10,12/3*0);
+			r3.setValue (10, 12/3*0);
 			Console.WriteLine (r3);
 
 			Console.WriteLine ("***** " + Fraction.Count + " Fraction objects have been created *****");
