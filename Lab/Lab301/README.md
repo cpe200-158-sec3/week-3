@@ -1,5 +1,7 @@
 ﻿# Implement the Fraction class according to the following requirements:
 
+//Natthapong Burakitphachai 570611011 Sec003
+
 ## Propeties:
 - Numer: Numerator
 - Denom: Denominator (default=1, cannot be 0)
@@ -23,8 +25,19 @@ many many operators need to be overloaded!!!
 ## Question?
 1. Is the number of Fraction objects equal to the 'new' keywords used
    in the 'main' methods? How come?
-2. Are the result, r3 and r7, in case#1 and case#2 the same? Why?
+	- The number of object is different (higher objects counted than actual create in "main"). because the operator created new additional
+	  object in the process. so  
+	  
 
+2. Are the result, r3 and r7, in case#1 and case#2 the same? Why?
+	- the result of r7 is the same but the result of r3 is different. The numbers of objects that have been also created. because ...
+
+	  : in case#1 [r3=4/3], the r7 object come from creating the new Fraction object base on the object r3 that goes throught 
+				   parameter constructor (so in this case#1 it has more object created) and not directly equal to r3 object. Causes both cases to go on different process and 
+				   given different output result. 
+	  : in case#2 [r3=1/3], the r7 object is directly equal to the value of r3 without creating the new Fraction object.
+				   so this case have fewer object created.
+	  
 
 ## Expected Output:
 
