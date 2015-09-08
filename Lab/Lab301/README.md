@@ -27,6 +27,7 @@ many many operators need to be overloaded!!!
   static variable never reset value to default when create object thats why we can count object
 2. Are the result, r3 and r7, in case#1 and case#2 the same? Why?
 = case 1 is create fraction by copy constructure(count will ++) case 2 use equal to tell variable is a value the same
+but case 2 will replace value instate
 
 
 ## Expected Output:
