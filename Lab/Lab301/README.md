@@ -23,8 +23,9 @@ many many operators need to be overloaded!!!
 ## Question?
 1. Is the number of Fraction objects equal to the 'new' keywords used
    in the 'main' methods? How come?
+Answer : No, becuase some object create from object have already. example: object of r4 create from object of r1 and r2  
 2. Are the result, r3 and r7, in case#1 and case#2 the same? Why?
-
+Answer : same becuse case#1 have new fraction by parameter = r3 ,case#2 have r7 = r3
 
 ## Expected Output:
 
