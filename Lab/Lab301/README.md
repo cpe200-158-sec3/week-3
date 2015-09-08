@@ -23,8 +23,15 @@ many many operators need to be overloaded!!!
 ## Question?
 1. Is the number of Fraction objects equal to the 'new' keywords used
    in the 'main' methods? How come?
+   
+   >> not equal to the 'new' keywords. because just create 'Fraction r4 = r1+r2;'
+	  is mean that we create another Fraction object, so number of Fraction objects doesn't eqaul to the 'new'
+	  keywords used in the 'main' methods.
+	   
 2. Are the result, r3 and r7, in case#1 and case#2 the same? Why?
-
+	
+   >> the result of r3 and r7 in 2 cases are the same because the 'Fraction' that we use call the same 'object'
+	  so the result of the r3 and r7 must be same in 2 cases. new Fraction(r3) = r3 so r7 = r3 = new Fraction(r3)
 
 ## Expected Output:
 
