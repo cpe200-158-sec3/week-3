@@ -60,8 +60,8 @@ namespace Lab301
 
         public Fraction(double num, double denom)
         {
-            this.Numer = num;
-            this.Denomer = denom;
+            this.Numer = num / Fraction.GCD(num,denom);
+            this.Denomer = denom / Fraction.GCD(num, denom);
             collector++;
         }
 
@@ -146,7 +146,7 @@ namespace Lab301
 
         public override string ToString()
         {
-            string x = "[Rational: " + this.Numer + "/" + this.Denomer + "], value=" + (this.Numer / this.Denomer) + "]";
+            string x = "[Rational: " + this.num + "/" + this.denom + "], value=" + (this.num / this.denom) + "]";
             return x;
         }
     }
