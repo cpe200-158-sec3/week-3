@@ -23,8 +23,9 @@ many many operators need to be overloaded!!!
 ## Question?
 1. Is the number of Fraction objects equal to the 'new' keywords used
    in the 'main' methods? How come?
+ans. not equal, in main have 7 fraction object but the result have 12 fraction object because calculation each case have call new fraction object alway
 2. Are the result, r3 and r7, in case#1 and case#2 the same? Why?
-
+ans. it same because it is same function.
 
 ## Expected Output:
 
