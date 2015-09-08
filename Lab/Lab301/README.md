@@ -23,7 +23,10 @@ many many operators need to be overloaded!!!
 ## Question?
 1. Is the number of Fraction objects equal to the 'new' keywords used
    in the 'main' methods? How come?
+   ANS!!:	NO! because the faction object created from operator.  
 2. Are the result, r3 and r7, in case#1 and case#2 the same? Why?
+   ANS!!: NO!! because in #1 r7 copy from r3 and r7++ that make the value of r7 and r3 do not the same.
+						  #2 r7 call r3 that change the value of r3 = r7.   
 
 
 ## Expected Output:
