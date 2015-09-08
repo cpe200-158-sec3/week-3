@@ -23,7 +23,9 @@ many many operators need to be overloaded!!!
 ## Question?
 1. Is the number of Fraction objects equal to the 'new' keywords used
    in the 'main' methods? How come?
+   #ANS: create new opject type Fraction.
 2. Are the result, r3 and r7, in case#1 and case#2 the same? Why?
+   #ANS: same because  
 
 
 ## Expected Output:
