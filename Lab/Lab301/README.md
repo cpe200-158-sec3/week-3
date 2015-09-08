@@ -23,7 +23,11 @@ many many operators need to be overloaded!!!
 ## Question?
 1. Is the number of Fraction objects equal to the 'new' keywords used
    in the 'main' methods? How come?
+   Answer : Different because operator create new additional object in process.
+
 2. Are the result, r3 and r7, in case#1 and case#2 the same? Why?
+   Answer : Result is the same because in case#1:'r7 = r3' is store fraction r3 in r7 
+			in case#2:'r7 = new fraction(r3)' is create r7 as fraction r3.
 
 
 ## Expected Output:
