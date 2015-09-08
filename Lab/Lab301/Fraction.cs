@@ -128,12 +128,14 @@ namespace Lab301
 		}
 		public void setValue(double a, double b)
 		{
+			Numer = a;
 			if (b == 0) 
 			{
-				b = 1;
-			} else 
+				Denom = 1;
+			} 
+			else 
 			{
-				Numer = a;
+				
 				Denom = b;
 			}
 		}
