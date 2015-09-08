@@ -9,7 +9,7 @@ namespace Lab301
 			Fraction r1 = new Fraction();
 			Fraction r2 = new Fraction(2);
 			Fraction r3 = new Fraction(3,9);
-
+           
 			Console.WriteLine ("***** " + Fraction.Count + " Fraction objects have been created *****");
 
 			Fraction r4 = r1+r2;
@@ -17,8 +17,8 @@ namespace Lab301
 			Fraction r6 = new Fraction(100,50);
 			r6 += r2;
 
-			Fraction r7 = new Fraction(r3);		// case#1
-//			Fraction r7 = r3;					// case#2
+			//Fraction r7 = new Fraction(r3);		// case#1
+			Fraction r7 = r3;					// case#2
 			r7++;
 
 			Console.WriteLine ("***** " + Fraction.Count + " Fraction objects have been created *****");
