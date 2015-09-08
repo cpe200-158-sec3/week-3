@@ -23,8 +23,10 @@ many many operators need to be overloaded!!!
 ## Question?
 1. Is the number of Fraction objects equal to the 'new' keywords used
    in the 'main' methods? How come?
+   Ans:No, it has more Fraction objects because when we use the +,- or copy the object, it also create a new object.
 2. Are the result, r3 and r7, in case#1 and case#2 the same? Why?
-
+   Ans: Yes,In case II, it pass the parameter of r3 and then assign to r7 but In case I, it create new object with the paremeter of r3 then assign to r7
+   which result will be the same.
 
 ## Expected Output:
 
