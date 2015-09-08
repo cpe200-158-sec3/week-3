@@ -23,8 +23,11 @@ many many operators need to be overloaded!!!
 ## Question?
 1. Is the number of Fraction objects equal to the 'new' keywords used
    in the 'main' methods? How come?
-2. Are the result, r3 and r7, in case#1 and case#2 the same? Why?
 
+   Answer: Equal, becuase we use 'new' for when we need to get some input.
+2. Are the result, r3 and r7, in case#1 and case#2 the same? Why?
+   
+   Answer: Same because result of case#1 equal case#2. 
 
 ## Expected Output:
 
