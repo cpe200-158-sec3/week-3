@@ -23,8 +23,13 @@ many many operators need to be overloaded!!!
 ## Question?
 1. Is the number of Fraction objects equal to the 'new' keywords used
    in the 'main' methods? How come?
-2. Are the result, r3 and r7, in case#1 and case#2 the same? Why?
+   ans: no bacause it have object is created in a oprator too.
 
+2. Are the result, r3 and r7, in case#1 and case#2 the same? Why?
+   ans: no because case#1 is created a new object r7 so when use r7++ the value doesn't sent to r3 
+        but in case#2 r7 call r3 so when use r7++ the value sent to r3.  	
+
+napatsawan somsuk 579611017
 
 ## Expected Output:
 
