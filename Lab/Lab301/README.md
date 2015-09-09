@@ -1,5 +1,5 @@
 ﻿# Implement the Fraction class according to the following requirements:
-
+Name : Patsamon Boonchai 570611023  sec 03
 ## Propeties:
 - Numer: Numerator
 - Denom: Denominator (default=1, cannot be 0)
@@ -23,8 +23,11 @@ many many operators need to be overloaded!!!
 ## Question?
 1. Is the number of Fraction objects equal to the 'new' keywords used
    in the 'main' methods? How come?
-2. Are the result, r3 and r7, in case#1 and case#2 the same? Why?
+Answer = it will not equal because The new operator will create the new object.
 
+2. Are the result, r3 and r7, in case#1 and case#2 the same? Why?
+ Answer = The result of r3 and r7 which both case #1 and case #2 will output same
+ because There are copy constructure.
 
 ## Expected Output:
 
