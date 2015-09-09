@@ -23,8 +23,9 @@ many many operators need to be overloaded!!!
 ## Question?
 1. Is the number of Fraction objects equal to the 'new' keywords used
    in the 'main' methods? How come?
+   Ans Not equal because operator create new opject to return the value.
 2. Are the result, r3 and r7, in case#1 and case#2 the same? Why?
-
+   Ans same because it copy constructor.
 
 ## Expected Output:
 
