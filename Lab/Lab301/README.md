@@ -20,11 +20,18 @@ note: increment the Count property when an object is created
 ## Operator Overloading:
 many many operators need to be overloaded!!! 
 
+Itsariyaporn Chaowanapoonpol
+570611040
+
 ## Question?
 1. Is the number of Fraction objects equal to the 'new' keywords used
    in the 'main' methods? How come?
+
+   ANS: No because in some operator creat new object to return the value;
+
 2. Are the result, r3 and r7, in case#1 and case#2 the same? Why?
 
+ANS : same because r3 and r7 are copy.
 
 ## Expected Output:
 
